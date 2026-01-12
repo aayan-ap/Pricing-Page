@@ -1,0 +1,54 @@
+.paymentbtn {
+  /* background-color: rebeccapurple; */
+  margin: 3rem 6rem;
+  padding: 2rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.paymentbtn > button {
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: "Manrope", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 1vw;
+  font-size: 1.5vw;
+  width: 26vw;
+  border-radius: 1vw;
+  border: none;
+ 
+
+  background: linear-gradient(
+    to right,
+    rgba(58, 92, 216, 0.9),
+    rgba(87, 111, 197, 0.9)
+  );
+
+  transition: 0.4s;
+}
+
+.paymentbtn > button:hover {
+  background: linear-gradient(
+    to left,
+    rgba(58, 92, 216, 0.9),
+    rgba(87, 111, 197, 0.9)
+  );
+  box-shadow: 0 3px 10px rgba(58, 92, 216, 0.9);
+}
+@media (max-width:768px) {
+   .paymentbtn {
+  margin: 2rem 6rem;
+  padding: 2rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+} 
+}
