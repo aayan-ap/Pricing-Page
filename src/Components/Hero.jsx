@@ -6,10 +6,10 @@ function Hero() {
     <>
     <section className='hero-section'>
     <div className='hero-head1'>
-    <h1>Be The <span className='hlt'> Top 1% </span> In IT Industry</h1>
+     Be The&nbsp;<span className='hlt'>Top 1%</span>&nbsp;In IT Industry
     </div>
     <div className='hero-head2'>
-    <h2>Lead, Innovate, Succeed !</h2>
+    Lead, Innovate, Succeed !
     </div>
     </section>
     </>

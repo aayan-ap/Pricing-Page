@@ -34,7 +34,7 @@ function Nav() {
               setOpen(!open);
             }}
           >
-            <Menu />
+            <Menu className="menu-icon"/>
           </button>
         </div>
       </nav>

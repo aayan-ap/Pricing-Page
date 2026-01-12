@@ -1,0 +1,39 @@
+.price-container{
+     font-family: "DM Sans", sans-serif;
+width: 346px;
+background-color: blueviolet;
+margin: 4rem;
+
+}
+/* .price-head{
+
+
+
+} */
+ .p1-head{
+
+    font-size: 23px;
+    font-weight:200;
+ }
+.price-bold{
+    font-weight: bold;
+}
+.p2-head{
+font-size:14px;
+ font-weight: bolder;
+
+}
+.p3-head{
+font-size:14px;
+
+
+}
+
+
+
+
+.price-btn button{
+background-color: black;
+    
+}
+

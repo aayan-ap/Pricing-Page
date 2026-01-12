@@ -1,8 +1,10 @@
 import React from 'react'
 import "./index.css";
-import Nav from './Components/nav'
+import Nav from './Components/Nav'
 import Hero from './Components/Hero'
 import Paymentbtn from './Components/Paymentbtn'
+import Pricing_card from './Components/Pricing_card';
+
 function App() {
 
   return (
@@ -11,7 +13,7 @@ function App() {
   <Nav></Nav>
   </header>
     <Hero></Hero>
-    <Paymentbtn></Paymentbtn>
+   <Pricing_card></Pricing_card>
     </div>
   )
 }

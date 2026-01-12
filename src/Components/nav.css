@@ -1,16 +1,15 @@
-:root {
-  --bl: rgba(58, 92, 216, 0.937);
-}
+
 
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-
+margin-top: 0.5rem;
   padding: 10px 5%;
-    background: rgba(0, 0, 0, 0.4); /* ❗ NOT fully black */
+ 
   backdrop-filter: blur(12px);
+  font-family: "JetBrains Mono", monospace;
 }
 
 .nav-img {
@@ -20,6 +19,7 @@
   width: 120px;
 }
 .nav-right > div {
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,16 +41,20 @@
 
 .nav-right {
   display: flex;
-  gap: 40px;
-  font-size: large;
+  gap: 46.3px;
+ font-size: 20px;
 }
 
 .login {
-  font-size: large;
+font-size: 20px;
+  font-weight: bolder;
   padding: 10px 30px;
-  background-color: var(--bl);
-  border-radius: 5px;
+    background-image: linear-gradient(to bottom, #202AA9 0%, #1A228A 31%,#0D1143 100%);
+  border-radius: 8px;
   border: none;
+  outline:  2px solid rgba(255, 251, 251, 0.1);
+  outline-offset: -2px ;
+  /* 1px solid rgba(255, 251, 251, 0.1) */
   cursor: pointer;
 }
 
@@ -65,5 +69,16 @@
   }
   .nav-img {
     width: 90px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .nav-img {
+    width: 55px;
+  }
+  .menu-icon{
+
+    width: 20px;
   }
 }
