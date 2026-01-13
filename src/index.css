@@ -28,7 +28,16 @@ header{
   position: sticky;
   top: 0;
    width: 100%;
+   z-index: 10;
   
+}
+
+.PricingCard{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  align-items: center;
 }
 /* Secondary text	#b3b3b3
 Muted text	#8a8a8a */

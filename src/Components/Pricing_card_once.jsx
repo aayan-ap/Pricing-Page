@@ -1,20 +1,20 @@
 import React from "react";
 import "./pricing_card.css";
-const Pricing_card = () => {
+const Pricing_card_once = () => {
   return (
     <>
       <div className="price-container">
         <div className="price-head">
           <p className="p1-head">
-            Online Paying <span className="price-bold">Installment</span>
+            Online Paying <span className="price-bold">Once</span>
           </p>
           <p className="p2-head">Mode Online</p>
           <p className="p3-head">
             From Scratch To Advanced – End-To-End Enterprise Generative AI
           </p>
           <div className="rupees">
-            <p className="rs">₹ 15,000/-</p>
-            <p className="inst">1st Installment</p>
+            <p className="rs">₹ 35,000/-</p>
+            
           </div>
         </div>
 
@@ -38,4 +38,4 @@ const Pricing_card = () => {
   );
 };
 
-export default Pricing_card;
+export default Pricing_card_once;
