@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./nav.css";
-import { Menu } from "lucide-react";
+import { Menu } from 'lucide-react';
 function Nav() {
   const [open, setOpen] = useState(false);
 
@@ -34,7 +34,7 @@ function Nav() {
               setOpen(!open);
             }}
           >
-            <Menu className="menu-icon"/>
+            <MenuIcon className="menu-icon"/>
           </button>
         </div>
       </nav>
