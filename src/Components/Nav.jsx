@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./nav.css";
-import { Menu } from 'lucide-react';
 function Nav() {
   const [open, setOpen] = useState(false);
 
@@ -27,15 +26,12 @@ function Nav() {
           </div>
         </div>
         <div className="menu">
-          {" "}
-          <button
-            className="menu-btn"
-            onClick={() => {
-              setOpen(!open);
-            }}
-          >
-            <MenuIcon className="menu-icon"/>
-          </button>
+          <button className="menu-btn ">
+               <img className="menu-icon" src="/src/assets/menu.png"></img>
+           </button>
+            {/* <MenuIcon className="menu-icon"/> */}
+         
+        
         </div>
       </nav>
 
