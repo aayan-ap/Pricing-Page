@@ -17,7 +17,7 @@ const Pricing_card_onsite = () => {
             UAE, Streamed Live At Clover Hills Plaza (Via Projector).
           </p>
           <div className="rupees">
-            <p className="rs">₹ 35,000/-</p>
+            <p className="rs">₹ 45,000/-</p>
           </div>
         </div>
 

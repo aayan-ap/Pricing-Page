@@ -13,8 +13,8 @@ const Pricing_card = () => {
             From Scratch To Advanced – End-To-End Enterprise Generative AI
           </p>
           <div className="rupees">
-            <p className="rs">₹ 15,000/-</p>
-            <p className="inst">1st Installment</p>
+            <p className="rs_inst">₹ 15,000/-</p>
+         
           </div>
         </div>
 

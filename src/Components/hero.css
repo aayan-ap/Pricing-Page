@@ -39,7 +39,7 @@
   font-weight: bold;
 
 }
-@media (max-width: 768px) {
+@media (max-width: 805px) {
   .hero-section {
     margin-block: 2rem;
     gap: 0.5rem;
@@ -48,21 +48,23 @@
     font-size: 2rem;
   }
   .hero-head2 {
-    font-size: 12px;
+    font-size: 16px;
     margin-top: 1rem;
   }
 }
 
 @media (max-width: 500px) {
   .hero-section {
-    margin: 1rem;
+    margin: 2vw;
    
   }
   .hero-head1 {
-    font-size: 5vw;
+
+    font-size:clamp(20px, 5vw, 30px);
   }
   .hero-head2 {
-    font-size: 2vw;
-    margin-top: 1.5vw;
+    /* font-size: 3vw; */
+    font-size:clamp(16px, 3vw, 20px);
+    margin-top: 1vw;
   }
 }

@@ -1,4 +1,5 @@
-.price-container, .price-container-onsite{
+.price-container,
+.price-container-onsite {
   font-family: "DM Sans", sans-serif;
   width: 346px;
   margin: 4rem;
@@ -14,16 +15,14 @@
     rgba(28, 32, 60, 1),
     rgba(0, 0, 0, 1)
   );
-   transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
-.price-container:hover, .price-container-onsite:hover{
-
- transform: scale(1.03);        
- outline-color: #fff;              
-  box-shadow: 0 8px 20px rgba(255,255,255,0.1);
+.price-container:hover,
+.price-container-onsite:hover {
+  transform: scale(1.03);
+  outline-color: #fff;
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.1);
 }
-
-
 
 .price-head {
   padding-bottom: 40px;
@@ -48,15 +47,16 @@
   padding-bottom: 12px;
 }
 
-.rupees {
-  position: relative;
-}
 .rs {
   font-size: 48px;
 }
-.inst {
+.rs_inst {
+  font-size: 48px;
+  position: relative;
+}
+.rs_inst::after {
   position: absolute;
-
+  content: "1st Installment";
   bottom: 0%;
   right: 0%;
   color: rgba(255, 255, 255, 0.8);
@@ -65,12 +65,13 @@
   font-size: 14px;
 }
 
-.price-btn, .price-btn-onsite {
+.price-btn,
+.price-btn-onsite {
   position: relative;
   display: flex;
+  align-items: center;
   justify-content: center;
   padding-bottom: 56px;
- 
 }
 
 .price-btn button {
@@ -87,15 +88,20 @@
   padding: 12px;
   font-size: 14px;
   border-radius: 12px;
-  transition:  0.3s;
-  
-
+  transition: 0.3s ease;
 }
-.price-btn button:hover{
-background-color: black;
-
+.price-btn button:hover {
+  background-color: rgb(1, 0, 0);
+  font-weight: bolder;
+  /* outline-color: rgba(252, 252, 252, 0.44);
+   transform: scale(1.03);  
+   box-shadow: 0 8px 20px rgba(255,255,255,0.1);                   */
+  outline-color: #ffffff40;
+  transform: scale(1.03);
+  box-shadow: 0 3px 20px rgba(49, 63, 240, 1);
 }
-.price-btn::after, .price-btn-onsite::after {
+.price-btn::after,
+.price-btn-onsite::after {
   content: " ";
 
   position: absolute;
@@ -105,9 +111,6 @@ background-color: black;
   height: 1px;
   width: 283px;
 }
-
-
-
 
 .foot-content {
   display: flex;
@@ -126,8 +129,9 @@ background-color: black;
   gap: 12px;
 }
 .content-list p {
-  padding-left: 23px;
+  padding-left: 1.5em;
   background: url("/src/assets/tick.png") no-repeat left center;
+  background-size: 1em 1em;
 }
 
 /* Self Placed */
@@ -151,19 +155,18 @@ background-color: black;
 }
 
 /* On-Site */
-.p2-head-onsite{
- color: rgba(255, 255, 255, 0.8);
+.p2-head-onsite {
+  color: rgba(255, 255, 255, 0.8);
   font-size: 14px;
-  font-weight:normal;
+  font-weight: normal;
   font-style: italic;
   padding-bottom: 4px;
-
 }
-.p3-head-onsite{
-       color: rgba(255, 255, 255, 0.8);
-    font-size: 14px;
-    font-weight: bolder;
-    line-height: 20px;
+.p3-head-onsite {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  font-weight: bolder;
+  line-height: 20px;
 }
 
 .price-btn-onsite button {
@@ -175,17 +178,223 @@ background-color: black;
   background-image: linear-gradient(
     to bottom,
     rgba(254, 254, 254, 1),
-   rgba(255, 255, 255, 0)
+    rgba(255, 255, 255, 0)
   );
   width: 290px;
   padding: 12px;
   font-size: 14px;
   font-weight: bold;
   border-radius: 12px;
-  
-
+  transition: 0.3s ease;
 }
-.price-container-onsite{
+.price-btn-onsite button:hover {
+  background-image: linear-gradient(
+    to bottom,
+    #202aa9 0%,
+    #1a228a 31%,
+    #0d1143 100%
+  );
+  color: #fff;
+  font-weight: bolder;
+  /* outline-color: rgba(252, 252, 252, 0.44);
+   transform: scale(1.03);  
+   box-shadow: 0 8px 20px rgba(255,255,255,0.1);                   */
+  outline-color: #ffffff40;
+  transform: scale(1.03);
+  box-shadow: 0 3px 20px rgb(228 229 236 / 31%);
+}
+.price-container-onsite {
+  width: 449px;
+}
 
-  width:449px;
+@media (max-width: 805px) {
+  .price-container,
+  .price-container-onsite {
+    width: 300px;
+    margin: 2rem;
+    padding-block: 30px;
+    padding-inline: 20px;
+    border-radius: 30px;
+  }
+  .price-head {
+    padding-bottom: 25px;
+  }
+  .p1-head {
+    padding-bottom: 2px;
+    font-size: 18px;
+  }
+  .p2-head {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    font-weight: bolder;
+    padding-bottom: 4px;
+  }
+  .p3-head {
+    line-height: 15px;
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+
+  .rs,
+  .rs_inst {
+    font-size: 38px;
+  }
+  .rs_inst::after {
+    font-size: 11px;
+  }
+  .price-btn,
+  .price-btn-onsite {
+    padding-bottom: 50px;
+  }
+
+  .price-btn button {
+    width: 250px;
+    padding: 12px;
+    font-size: 12px;
+  }
+  .price-btn::after,
+  .price-btn-onsite::after {
+    width: 240px;
+  }
+
+  .foot-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .foot-head {
+    font-size: 16px;
+  }
+  .content-list {
+    font-size: 12px;
+    gap: 10px;
+  }
+  .content-list p {
+    padding-left: 20px;
+    background: url("/src/assets/tick.png") no-repeat left center;
+  }
+
+  /* Self Placed */
+  .list1,
+  .list2 {
+    font-size: 10px;
+    padding-left: 2em;
+    line-height: 1.5em;
+  }
+
+  /* On-Site */
+  .p2-head-onsite {
+    padding-bottom: 2px;
+  }
+  .p3-head-onsite {
+    font-size: 13px;
+
+    line-height: 20px;
+  }
+
+  .price-btn-onsite button {
+    width: 280px;
+    padding: 12px;
+    font-size: 13px;
+  }
+  .price-container-onsite {
+    width: 350px;
+  }
+}
+
+@media (max-width: 500px) {
+  .price-container,
+  .price-container-onsite {
+    width: 48vw;
+    margin: 1rem;
+           padding-block: 20px;
+        padding-inline: 15px;
+        border-radius: 20px
+  }
+  .price-head {
+    padding-bottom: 15px;
+  }
+  .p1-head {
+    padding-bottom: 2px;
+    /* font-size: 3vw; */
+    font-size: clamp(14px, 3vw, 16px);
+  }
+  .p2-head {
+    /* font-size: 2vw; */
+    font-size: clamp(10px, 2vw, 12px);
+
+    padding-bottom: 4px;
+  }
+  .p3-head {
+    line-height: 15px;
+    /* font-size: 2vw; */
+    font-size: clamp(8px, 2vw, 10px);
+    padding-bottom: 5px;
+  }
+
+  .rs,.rs_inst {
+    font-size: clamp(20px, 5vw, 30px);
+  }
+  .rs_inst::after {
+    font-size: clamp(8px,2vw,11px);
+  }
+  .price-btn,
+  .price-btn-onsite {
+    padding-bottom: 25px;
+  }
+
+  .price-btn button {
+    width: 40vw;
+    padding: 10px;
+    font-size: clamp(8px, 2vw, 10px);
+    border-radius: 10px;
+  }
+  .price-btn::after,
+  .price-btn-onsite::after {
+            width: 35vw;
+        bottom: 20%;
+  }
+
+
+  .foot-head {
+     font-size: clamp(10px, 2vw, 12px);
+  }
+  .content-list {
+    font-size: clamp(8px, 2vw, 10px);
+    gap: 5px;
+  }
+  .content-list p {
+    padding-left: 13px;
+    background: url("/src/assets/tick.png") no-repeat left center;
+    background-size: clamp(8px, 2vw, 10px);
+  }
+
+  /* Self Placed */
+  .list1,
+  .list2 {
+    font-size: clamp(7px, 1vw, 8px);
+    padding-left: 2em;
+  
+  }
+
+  /* On-Site */
+  .p2-head-onsite {
+    font-size: clamp(12px, 2vw, 10px);
+    padding-bottom: 2px;
+  }
+  .p3-head-onsite {
+            font-size: clamp(8px, 2vw, 10px);
+
+    line-height: 15px;
+  }
+
+  .price-btn-onsite button {
+    width: 52vw;
+    padding: 10px;
+    font-size: clamp(8px, 2vw, 10px);
+    border-radius: 10px;
+  }
+  .price-container-onsite {
+    width: 60vw;
+  }
 }

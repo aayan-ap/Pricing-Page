@@ -39,5 +39,27 @@ header{
   justify-content:space-evenly;
   align-items: center;
 }
+.PricingCard_responsive{
+
+ display: none;
+
+}
+
+@media (max-width:805px) {
+  .PricingCard{
+
+ display: none;
+
+}
+
+  .PricingCard_responsive{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  align-items: center;
+
+}
+}
 /* Secondary text	#b3b3b3
 Muted text	#8a8a8a */
