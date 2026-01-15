@@ -7,7 +7,7 @@ function Nav() {
     <>
       <nav className="nav">
         <div className="nav-left">
-          <img className="nav-img" src="src\assets\logo.png"></img>
+          <img className="nav-img" src="src/assets/logo.png" alt="CloudAge Logo"></img>
         </div>
         <div className="nav-right">
           <div>
