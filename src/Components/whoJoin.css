@@ -1,0 +1,84 @@
+.whojoin_container{
+ font-family: "DM Sans", sans-serif;
+outline: 1px solid red;
+    margin-inline: 2.5rem;
+    margin-block:3rem ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.whojoin_head{
+
+    display: flex;
+    flex-direction: column;
+     justify-content:center;
+     align-items: center;
+     gap:1rem;
+     margin-bottom: 90px;
+     outline: 1px solid white;
+   
+}
+.whojoin_head h1{
+
+    font-size: 47px;
+}
+
+.whojoin_head h3{
+
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.whojoin_card_container{
+
+    display: flex;
+ 
+    gap: 55px;
+    align-items: center;
+}
+
+.whojoin_card{
+    display: flex;
+    padding-top: 17px;
+    padding-bottom: 98px;
+    padding-inline: 25px;
+    border-radius: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: linear-gradient(226deg, rgba(255, 255, 255, 0.04),rgba(252, 252, 255, 0.1) );
+    /* outline: 1px solid rebeccapurple; */
+
+    
+}
+.whojoin_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ /* outline: 1px solid white; */
+    width:364px;
+   
+}
+.whojoin_img img{
+object-fit: contain;
+    width: 100%;
+    height: auto;
+}
+
+.whojoin_card_content{
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.whojoin_card_content .head{
+font-size: 24px;
+font-weight: bold;
+
+}
+.whojoin_card_content .text{
+
+font-size: 20px;
+}

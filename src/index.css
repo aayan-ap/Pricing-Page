@@ -44,9 +44,14 @@ header {
 
   .PricingCard_responsive {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    /* flex-wrap: wrap;
+    justify-content: space-evenly;  */
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
     align-items: center;
+  }
+  .PricingCard_responsive::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
   }
 }
 /* Secondary text	#b3b3b3
