@@ -23,12 +23,17 @@
   font-size: 25px;
   font-weight: normal;
 }
+.who_join{
 
+  width: 100%;
+}
 .whojoin_card_container {
+  /* border: 1px solid white; */
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 55px;
+  gap:55px;
   align-items: center;
 }
 
@@ -148,11 +153,44 @@
   }
 }
 
+
+/* Slider do after some time But failed */
 @media (max-width: 500px) {
   .whojoin_container {
     margin: 1rem;
+   
+
   }
-  .whojoin_head {
+  .whojoin_card_container{
+    width: 100%;
+     flex-wrap:nowrap;
+    gap:20px;
+    padding-left:5%;
+    overflow-x: auto;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .whojoin_card_container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+  }
+  .whojoin_card{
+   flex-shrink: 0;
+            padding-top: 10px;
+        
+        padding-inline: 11px;
+        border-radius: 15px;
+      
+        height: 210px;
+        width: 160px;
+  }
+    .whojoin_card_content .head {
+    font-size: 12px;
+  }
+  .whojoin_card_content .text {
+    font-size:10px;
+  } 
+  /* .whojoin_head {
     gap: 0.2rem;
     margin-bottom: 20px;
   }
@@ -176,12 +214,11 @@
     height: clamp(200px, 47vw, 400px);
     width: clamp(180px, 40vw, 300px);
 
-    /* outline: 1px solid rebeccapurple; */
   }
   .whojoin_card_content .head {
     font-size: clamp(12px, 2.5vw, 10px);
   }
   .whojoin_card_content .text {
     font-size: clamp(10px, 2.1vw, 8px);
-  }
-}
+  } */
+} 

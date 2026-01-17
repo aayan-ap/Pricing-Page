@@ -1,39 +1,102 @@
 .steps_container {
-  border: 1px solid white;
-font-family: "DM Sans", sans-serif;
+  /* border: 1px solid white; */
+  font-family: "DM Sans", sans-serif;
   margin-block: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.steps_head{
+.steps_head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 75px;
+}
+.steps_head h3 {
+  font-size: 25px;
+  margin-bottom: 22px;
+  font-weight: normal;
+}
+.steps_head h1 {
+  font-size: 47px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+.steps_head h2 {
+  font-size: 20px;
+  font-weight: normal;
+  color: rgba(255, 251, 251, 0.64);
+}
+.steps_card_container {
+    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+  
+}
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 75px;
+.steps_card {
+  display: flex;
+  flex-direction: column;
+  width: 295px;
+  height: 370px;
+  padding-top: 42px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(94, 91, 91, 0.2);
+  border-radius: 29px;
+  gap: 10px;
 }
-.steps_head h3{
-font-size: 25px;
-margin-bottom: 22px;
-font-weight: normal;
-    
+.steps_img {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative;
 }
-.steps_head h1{
-font-size: 47px;
-font-weight: bold;
-   margin-bottom: 6px; 
+.steps_img img {
+  height: auto;
+  width: 40%;
 }
-.steps_head h2{
-font-size: 20px;
-font-weight: normal;
-color: rgba(255, 251, 251, 0.64);
-    
-}
-.steps_card_container{
+.ai_ops {
+  position: absolute;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+  left: 16%;
+}
+.gen_ai {
+  position: absolute;
+  right: 10%;
+  
+}
+.steps_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-inline: 27px;
+  gap: 22px;
+}
+.text_head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text_head h3 {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgba(49, 63, 240, 1);
+}
+.steps_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.steps_info p {
+  font-size: 23px;
 }
