@@ -73,7 +73,7 @@
 
 @media (max-width: 500px) {
    .webinar_container {
-    margin-inline: 1rem;
+    margin: 1rem;
   }
 
   .webinar_head {

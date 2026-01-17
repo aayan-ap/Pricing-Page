@@ -44,10 +44,11 @@ header {
 
   .PricingCard_responsive {
     display: flex;
-    /* flex-wrap: wrap;
-    justify-content: space-evenly;  */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly;  */
     overflow-x: auto;
     scroll-snap-type: x mandatory;
+     scroll-behavior: smooth;
     align-items: center;
   }
   .PricingCard_responsive::-webkit-scrollbar {

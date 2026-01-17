@@ -397,3 +397,24 @@
     width: 60vw;
   }
 }
+
+@media (max-width:417px) {
+  .price-container {
+    min-width: 200px;
+   
+  }
+  
+  .price-container-onsite{
+     min-width: 250px;
+  }
+  .price-btn button {
+    width: 167px;
+   
+  }
+  .price-btn::after,
+  .price-btn-onsite::after {
+    width: 144.5px;
+    bottom: 20%;
+  }
+
+}

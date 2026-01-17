@@ -1,0 +1,39 @@
+.steps_container {
+  border: 1px solid white;
+font-family: "DM Sans", sans-serif;
+  margin-block: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.steps_head{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 75px;
+}
+.steps_head h3{
+font-size: 25px;
+margin-bottom: 22px;
+font-weight: normal;
+    
+}
+.steps_head h1{
+font-size: 47px;
+font-weight: bold;
+   margin-bottom: 6px; 
+}
+.steps_head h2{
+font-size: 20px;
+font-weight: normal;
+color: rgba(255, 251, 251, 0.64);
+    
+}
+.steps_card_container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

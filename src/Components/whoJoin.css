@@ -150,7 +150,7 @@
 
 @media (max-width: 500px) {
   .whojoin_container {
-    margin-inline: 1rem;
+    margin: 1rem;
   }
   .whojoin_head {
     gap: 0.2rem;
