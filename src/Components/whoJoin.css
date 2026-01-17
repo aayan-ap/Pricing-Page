@@ -1,84 +1,187 @@
-.whojoin_container{
- font-family: "DM Sans", sans-serif;
-outline: 1px solid red;
-    margin-inline: 2.5rem;
-    margin-block:3rem ;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   
-}
-.whojoin_head{
+.whojoin_container {
+  font-family: "DM Sans", sans-serif;
 
-    display: flex;
+  margin-inline: 2.5rem;
+  margin-block: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whojoin_head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 90px;
+}
+.whojoin_head h1 {
+  font-size: 47px;
+}
+
+.whojoin_head h3 {
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.whojoin_card_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 55px;
+  align-items: center;
+}
+
+.whojoin_card {
+  display: flex;
+  padding-top: 17px;
+  padding-bottom: 80px;
+
+  border-radius: 40px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 416px;
+  background-image: linear-gradient(
+    226deg,
+    rgba(255, 255, 255, 0.04),
+    rgba(252, 252, 255, 0.1)
+  );
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  /* outline: 1px solid rebeccapurple; */
+}
+
+.whojoin_card:hover {
+  transform: scale(1.03);
+  outline: 1px solid #ffffff6e;
+  box-shadow: 0 8px 20px rgb(246 246 246 / 16%);
+}
+
+.whojoin_img {
+  /* outline: 1px solid white; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* outline: 1px solid white; */
+  /* width:364px; */
+}
+.whojoin_img img {
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+}
+
+.whojoin_card_content {
+  margin-top: 30px;
+  margin-inline: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.whojoin_card_content .head {
+  font-size: 24px;
+  font-weight: bold;
+}
+.whojoin_card_content .text {
+  width: 90%;
+  font-size: 20px;
+}
+
+@media (max-width: 805px) {
+  .whojoin_container {
+    margin-inline: 2rem;
+    margin-block: 2rem;
+  }
+  .whojoin_head {
+    gap: 0.5rem;
+    margin-bottom: 30px;
+  }
+  .whojoin_head h1 {
+    font-size: 2rem;
+  }
+
+  .whojoin_head h3 {
+    font-size: 1.2rem;
+  }
+  .whojoin_card_container {
+    gap: 25px;
+  }
+
+  .whojoin_card {
+    padding-top: 3vw;
+    padding-bottom: 0;
+    padding-inline: 2.2vw;
+    border-radius: 3vw;
     flex-direction: column;
-     justify-content:center;
-     align-items: center;
-     gap:1rem;
-     margin-bottom: 90px;
-     outline: 1px solid white;
-   
-}
-.whojoin_head h1{
-
-    font-size: 47px;
-}
-
-.whojoin_head h3{
-
-    font-size: 25px;
-    font-weight: normal;
-}
-
-.whojoin_card_container{
-
-    display: flex;
- 
-    gap: 55px;
     align-items: center;
-}
+    justify-content: flex-start;
+    height: 47vw;
+    width: 40vw;
 
-.whojoin_card{
-    display: flex;
-    padding-top: 17px;
-    padding-bottom: 98px;
-    padding-inline: 25px;
-    border-radius: 40px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    background-image: linear-gradient(226deg, rgba(255, 255, 255, 0.04),rgba(252, 252, 255, 0.1) );
     /* outline: 1px solid rebeccapurple; */
-
-    
-}
-.whojoin_img{
+  }
+  .whojoin_img {
+    /* outline: 1px solid white; */
     display: flex;
     align-items: center;
     justify-content: center;
- /* outline: 1px solid white; */
-    width:364px;
-   
-}
-.whojoin_img img{
-object-fit: contain;
+    /* outline: 1px solid white; */
+  }
+  .whojoin_img img {
+    object-fit: contain;
     width: 100%;
     height: auto;
-}
+  }
 
-.whojoin_card_content{
-    margin-top:30px;
+  .whojoin_card_content {
+    margin-top: 2vw;
+    margin-inline: 0px;
     display: flex;
+
+    gap: 2vw;
+  }
+  .whojoin_card_content .head {
+    font-size: 2.5vw;
+  }
+  .whojoin_card_content .text {
+    font-size: 2.1vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .whojoin_container {
+    margin-inline: 1rem;
+  }
+  .whojoin_head {
+    gap: 0.2rem;
+    margin-bottom: 20px;
+  }
+  .whojoin_head h1 {
+    font-size: clamp(20px, 5vw, 30px);
+  }
+  .whojoin_head h3 {
+    font-size: clamp(14px, 3vw, 16px);
+  }
+  .whojoin_card_container {
+    gap: 20px;
+  }
+  .whojoin_card {
+    padding-top: 4vw;
+    padding-bottom: 0;
+    padding-inline: 3.5vw;
+    border-radius: 3vw;
     flex-direction: column;
-    gap:30px;
-}
-.whojoin_card_content .head{
-font-size: 24px;
-font-weight: bold;
+    align-items: center;
+    justify-content: flex-start;
+    height: clamp(200px, 47vw, 400px);
+    width: clamp(180px, 40vw, 300px);
 
-}
-.whojoin_card_content .text{
-
-font-size: 20px;
+    /* outline: 1px solid rebeccapurple; */
+  }
+  .whojoin_card_content .head {
+    font-size: clamp(12px, 2.5vw, 10px);
+  }
+  .whojoin_card_content .text {
+    font-size: clamp(10px, 2.1vw, 8px);
+  }
 }

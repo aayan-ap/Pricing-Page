@@ -8,6 +8,7 @@ import Pricing_card_self from "./Components/Pricing_card_self";
 import Pricing_card_onsite from "./Components/Pricing_card_onsite";
 import Webinar from "./Components/Webinar";
 import WhoJoin from "./Components/WhoJoin";
+import Steps from "./Components/Steps";
 
 // import Webinar_vid from "./Components/Webinar_vid";
 
@@ -41,8 +42,10 @@ function App() {
       {/* <Webinar_vid /> */}
 
       {/* Who Should Join? */}
-<WhoJoin></WhoJoin>
+      <WhoJoin></WhoJoin>
 
+      {/* Steps to Success */}
+      <Steps></Steps>
     </div>
   );
 }
