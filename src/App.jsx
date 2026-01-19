@@ -9,6 +9,8 @@ import Pricing_card_onsite from "./Components/Pricing_card_onsite";
 import Webinar from "./Components/Webinar";
 import WhoJoin from "./Components/WhoJoin";
 import Steps from "./Components/Steps";
+import Prologue from "./Components/Prologue";
+import Why from "./Components/Why";
 
 // import Webinar_vid from "./Components/Webinar_vid";
 
@@ -46,6 +48,11 @@ function App() {
 
       {/* Steps to Success */}
       <Steps></Steps>
+
+      {/* Director Prologue */}
+      <Prologue></Prologue>
+      {/* Why Corporates Choose CloudAge ? */}
+      <Why></Why>
     </div>
   );
 }

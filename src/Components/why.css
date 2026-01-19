@@ -1,0 +1,123 @@
+.why_container {
+  font-family: "DM Sans", sans-serif;
+  margin-bottom: 100px;
+  margin-inline: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.why_head {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 45px;
+}
+.why_head h1 {
+  font-size: 47px;
+  font-weight: bold;
+}
+.why_content {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 50px;
+}
+
+.why_point {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  padding-inline: 40px;
+  padding-block: 20px;
+  width: 100%;
+  border: 1px solid rgba(94, 91, 91, 0.2);
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  transition: 0.2s;
+  font-size: 25px;
+}
+.why_point:hover {
+  background-color: rgb(255 255 255 / 9%);
+  border: 1px solid rgb(94 91 91 / 82%);
+}
+.why_point h3 {
+     font-size: 1em;
+  color: rgba(255, 255, 255, 0.8);
+  padding-left: 2em;
+  background: url("/src/assets/BluTick.png") no-repeat left center;
+  background-size: 1.5em 1em;
+
+}
+.why_point p {
+  font-size: 18px;
+}
+@media (max-width: 800px) {
+  .why_container {
+    margin-bottom: 50px;
+    margin-inline: 1rem;
+  }
+  .why_head {
+    margin-bottom: 35px;
+  }
+  .why_head h1 {
+    font-size: 32px;
+  }
+  .why_content {
+   
+    gap: 25px;
+  }
+  .why_point {
+    gap: 10px;
+
+    padding-inline: 20px;
+    padding-block: 10px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 20px;
+  }
+  .why_point h3 {
+    font-size: 1em;
+   
+  }
+  .why_point p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 580px) {
+    .why_container {
+    margin-bottom: 30px;
+  }
+  .why_head {
+    margin-bottom: 6vw;
+  }
+  .why_head h1 {
+  font-size: clamp(18px, 4.5vw, 25px);
+  }
+  .why_content {
+     
+    gap: 16px;
+  }
+  .why_point {
+    gap: 10px;
+
+    padding-inline: 20px;
+    padding-block: 10px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 20px;
+  }
+  .why_point h3 {
+    font-size: 1em;
+   
+  }
+  .why_point p {
+    font-size: 16px;
+  }
+}

@@ -6,7 +6,7 @@ function Steps() {
       <div className="steps_container">
         <div className="steps_head">
           <h3>
-            3 STEPS TO &nbsp;<span className="hlt">SUCCESS </span>
+            3 STEPS TO <span className="hlt">SUCCESS</span>
           </h3>
           <h1>Comprehensive IT Training Solutions</h1>
           <h2>

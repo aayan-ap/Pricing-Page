@@ -8,7 +8,7 @@ function WhoJoin() {
         <div className="who_join">
           <div className="whojoin_head">
             <h1>
-              Who Should &nbsp;<span className="hlt">Join</span>&nbsp; ?
+              Who Should <span className="hlt">Join</span> ?
             </h1>
             <h3>Low Coding Required</h3>
           </div>

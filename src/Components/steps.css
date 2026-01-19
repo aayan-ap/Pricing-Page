@@ -50,6 +50,7 @@
   transition: box-shadow 0.35s ease;
 }
 .blu {
+  border: 1px solid rgb(94 91 91 / 60%);
   background-image: linear-gradient(
     219deg,
     rgba(23, 31, 86, 1) 1%,

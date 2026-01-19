@@ -1,0 +1,162 @@
+.prologue_container {
+  font-family: "DM Sans", sans-serif;
+  margin-bottom: 100px;
+  margin-inline: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.prologue_head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 45px;
+}
+.prologue_head h1 {
+  font-size: 47px;
+  font-weight: bold;
+}
+.prologue_head::after {
+  position: absolute;
+  content: " ";
+  border-bottom: 1px solid rgba(49, 63, 240, 1);
+  width: 80%;
+  bottom: -22%;
+  right: 10%;
+}
+.prologue_text {
+  width: 90%;
+  border: 1px solid rgba(94, 91, 91, 0.2);
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding-inline: 33px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 25px;
+  transition: 0.2s ease;
+}
+
+.prologue_text:hover {
+  background-color: rgb(255 255 255 / 9%);
+  border: 1px solid rgb(94 91 91 / 82%);
+}
+.prlogue_para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  line-height: 38px;
+  text-align: justify;
+}
+.name {
+  margin-top: 28px;
+
+  line-height: 38px;
+  align-self: flex-start;
+}
+.name p {
+  font-weight: bold;
+  color: rgba(49, 63, 240, 1);
+}
+.statics {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.exp h1 {
+  font-family: "Playfair", serif;
+  font-size: 60px;
+  padding-bottom: 5px;
+}
+.exp h3 {
+  font-weight: bold;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.78);
+  letter-spacing: 1px;
+}
+
+@media (max-width: 800px) {
+  .prologue_container {
+    margin-bottom: 50px;
+
+    margin-inline: 1rem;
+  }
+  .prologue_head {
+    margin-bottom: 45px;
+  }
+
+  .prologue_head h1 {
+    font-size: 32px;
+  }
+  .prologue_text {
+    padding-inline: 20px;
+    padding-top: 18px;
+    padding-bottom: 40px;
+    font-size: 20px;
+  }
+  .prlogue_para {
+    line-height: 30px;
+  }
+  .name {
+    margin-top: 20px;
+
+    line-height: 30px;
+  }
+  .statics {
+    margin-top: 20px;
+  }
+  .exp h1 {
+    font-size: 35px;
+    padding-bottom: 5px;
+  }
+  .exp h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 580px) {
+  .prologue_container {
+    margin-bottom: 30px;
+  }
+  .prologue_head {
+    margin-bottom: 6vw;
+  }
+
+  .prologue_head h1 {
+    font-size: clamp(18px, 4.5vw, 25px);
+  }
+  .prologue_text {
+    padding-inline: 10px;
+    padding-top: 12px;
+    padding-bottom: 25px;
+    font-size: clamp(10px, 2.2vw, 16px);
+  }
+  .prlogue_para {
+    line-height: normal;
+  }
+  .name {
+    margin-top: 15px;
+
+    line-height: normal;
+  }
+  .statics {
+    margin-top: 20px;
+  }
+  .exp h1 {
+    font-size: clamp(20px, 4.5vw, 30px);
+    padding-bottom: 5px;
+  }
+  .exp h3 {
+    font-size: clamp(8px, 2.2vw, 16px);
+  }
+}
