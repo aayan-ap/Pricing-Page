@@ -32,10 +32,10 @@ function Steps() {
               </div>
             </div>
           </div>
-          <div className="steps_card">
+          <div className="steps_card blu">
             <div className="steps_img">
               <img src="/src/assets/Ops_logo/SysOps.png"></img>
-              <img src="/src/assets/Ops_logo/DataOps.png"></img>
+              <img className="dataops" src="/src/assets/Ops_logo/DataOps.png"></img>
             </div>
             <div className="steps_text">
               <div className="text_head">

@@ -23,8 +23,7 @@
   font-size: 25px;
   font-weight: normal;
 }
-.who_join{
-
+.who_join {
   width: 100%;
 }
 .whojoin_card_container {
@@ -33,7 +32,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap:55px;
+  gap: 55px;
   align-items: center;
 }
 
@@ -52,7 +51,10 @@
     rgba(255, 255, 255, 0.04),
     rgba(252, 252, 255, 0.1)
   );
-  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
   /* outline: 1px solid rebeccapurple; */
 }
 
@@ -153,43 +155,45 @@
   }
 }
 
-
 /* Slider do after some time But failed */
 @media (max-width: 500px) {
   .whojoin_container {
     margin: 1rem;
-   
-
   }
-  .whojoin_card_container{
+  .whojoin_card_container {
     width: 100%;
-     flex-wrap:nowrap;
-    gap:20px;
-    padding-left:5%;
-    overflow-x: auto;
+    gap: 20px;
+
     align-items: center;
     justify-content: center;
+  }
+
+  .whojoin_card {
    
+    padding-top: 10px;
+
+    padding-inline: 11px;
+    border-radius: 15px;
+
+    height: 210px;
+    width: 160px;
   }
-  .whojoin_card_container::-webkit-scrollbar {
-    display: none; /* Hide scrollbar */
-  }
-  .whojoin_card{
-   flex-shrink: 0;
-            padding-top: 10px;
-        
-        padding-inline: 11px;
-        border-radius: 15px;
-      
-        height: 210px;
-        width: 160px;
-  }
-    .whojoin_card_content .head {
+  .whojoin_card_content .head {
     font-size: 12px;
   }
   .whojoin_card_content .text {
-    font-size:10px;
-  } 
+    font-size: 10px;
+  }
+  .whojoin_head {
+    gap: 0.2rem;
+    margin-bottom: 20px;
+  }
+  .whojoin_head h1 {
+    font-size: clamp(20px, 5vw, 30px);
+  }
+  .whojoin_head h3 {
+    font-size: clamp(14px, 3vw, 16px);
+  }
   /* .whojoin_head {
     gap: 0.2rem;
     margin-bottom: 20px;
@@ -221,4 +225,4 @@
   .whojoin_card_content .text {
     font-size: clamp(10px, 2.1vw, 8px);
   } */
-} 
+}
