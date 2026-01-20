@@ -12,6 +12,7 @@ import Steps from "./Components/Steps";
 import Prologue from "./Components/Prologue";
 import Why from "./Components/Why";
 import Faq from "./Components/Faq";
+import Footer from "./Components/Footer";
 
 // import Webinar_vid from "./Components/Webinar_vid";
 
@@ -54,8 +55,10 @@ function App() {
       <Prologue></Prologue>
       {/* Why Corporates Choose CloudAge ? */}
       <Why></Why>
-
+      {/* Faqs */}
       <Faq></Faq>
+      {/* Footer */}
+      <Footer></Footer>
     </div>
   );
 }
