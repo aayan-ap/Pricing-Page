@@ -47,15 +47,15 @@
   border: 1px solid rgb(94 91 91 / 82%);
 }
 .why_point h3 {
-     font-size: 1em;
+  font-size: 1em;
   color: rgba(255, 255, 255, 0.8);
   padding-left: 2em;
   background: url("/src/assets/BluTick.png") no-repeat left center;
   background-size: 1.5em 1em;
-
 }
 .why_point p {
   font-size: 18px;
+  text-align: justify;
 }
 @media (max-width: 800px) {
   .why_container {
@@ -69,7 +69,6 @@
     font-size: 32px;
   }
   .why_content {
-   
     gap: 25px;
   }
   .why_point {
@@ -83,7 +82,6 @@
   }
   .why_point h3 {
     font-size: 1em;
-   
   }
   .why_point p {
     font-size: 16px;
@@ -91,33 +89,32 @@
 }
 
 @media (max-width: 580px) {
-    .why_container {
+  .why_container {
     margin-bottom: 30px;
   }
   .why_head {
     margin-bottom: 6vw;
   }
   .why_head h1 {
-  font-size: clamp(18px, 4.5vw, 25px);
+    font-size: clamp(18px, 4.5vw, 25px);
   }
   .why_content {
-     
     gap: 16px;
   }
   .why_point {
-    gap: 10px;
+    gap: 8px;
 
-    padding-inline: 20px;
+    padding-inline: 10px;
     padding-block: 10px;
     width: 100%;
-    font-size: 20px;
-    border-radius: 20px;
+    font-size: clamp(12px, 2.2vw, 18px);
+    border-radius: 15px;
   }
   .why_point h3 {
     font-size: 1em;
-   
   }
   .why_point p {
-    font-size: 16px;
+    line-height: normal;
+    font-size: clamp(10px, 2.2vw, 16px);
   }
 }
