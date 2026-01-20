@@ -28,15 +28,16 @@ function Faq() {
                 alt="arrow"
               />
             </div>
-            {open === 0 && (
-              // <div className={`answer ${open === 0 ? "show" : ""}`}>
-              <div className="answer">
-                <p>
-                  Yes, The Program Starts From Scratch And Is Designed For
-                  Learners With Zero IT Experience.
-                </p>
+            
+              <div className={`answer_container ${open === 0 ? "is-open" : ""}`}>
+                <div className="answer">
+                  <p>
+                    Yes, The Program Starts From Scratch And Is Designed For
+                    Learners With Zero IT Experience.
+                  </p>
+                </div>
               </div>
-            )}
+            
           </div>
           <div className="accordian">
             <div className="question" onClick={() => toggle(1)}>
@@ -47,8 +48,8 @@ function Faq() {
                 alt="arrow"
               />
             </div>
-            {open === 1 && (
-              // <div className={`answer ${open === 1 ? "show" : ""}`}>
+           
+            <div className={`answer_container ${open === 1 ? "is-open" : ""}`}>
               <div className="answer">
                 <p>
                   The Programme Is Designed To Be Completed In 1 Month. Your
@@ -56,7 +57,7 @@ function Faq() {
                   You Apply What You Learn.
                 </p>
               </div>
-            )}
+            </div>
           </div>
           <div className="accordian">
             <div className="question" onClick={() => toggle(2)}>
@@ -67,15 +68,15 @@ function Faq() {
                 alt="arrow"
               />
             </div>
-            {open === 2 && (
-              // <div className={`answer ${open === 2 ? "show" : ""}`}>
+         
+             <div className={`answer_container ${open === 2 ? "is-open" : ""}`}>
               <div className="answer">
                 <p>
                   Yes, The Program Covers Enterprise Generative Ai Along With
                   The Latest Cloud Tools And Technologies.
                 </p>
               </div>
-            )}
+          </div>
           </div>
           <div className="accordian">
             <div className="question" onClick={() => toggle(3)}>
@@ -86,15 +87,15 @@ function Faq() {
                 alt="arrow"
               />
             </div>
-            {open === 3 && (
-              // <div className={`answer ${open === 3 ? "show" : ""}`}>
+            
+             <div className={`answer_container ${open === 3 ? "is-open" : ""}`}>
               <div className="answer">
                 <p>
                   Absolutely! This Program Helps Anyone, From Any Background,
                   Transition Into IT Smoothly.
                 </p>
               </div>
-            )}
+           </div>
           </div>
           <div className="accordian">
             <div className="question" onClick={() => toggle(4)}>
@@ -105,8 +106,8 @@ function Faq() {
                 alt="arrow"
               />
             </div>
-            {open === 4 && (
-              // <div className={`answer ${open === 4 ? "show" : ""}`}>
+            
+              <div className={`answer_container ${open === 4 ? "is-open" : ""}`}>
               <div className="answer">
                 <p>
                   You'll Have Access To Our Community Of Learners And Mentors,
@@ -116,7 +117,7 @@ function Faq() {
                   Job Market.
                 </p>
               </div>
-            )}
+          </div>
           </div>
         </div>
       </div>

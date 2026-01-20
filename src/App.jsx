@@ -13,6 +13,7 @@ import Prologue from "./Components/Prologue";
 import Why from "./Components/Why";
 import Faq from "./Components/Faq";
 import Footer from "./Components/Footer";
+import NavSample from "./Components/NavSample";
 
 // import Webinar_vid from "./Components/Webinar_vid";
 
@@ -20,7 +21,9 @@ function App() {
   return (
     <div>
       <header>
-        <Nav></Nav>
+        {/* <Nav></Nav> */}
+        <NavSample></NavSample>
+
       </header>
 
       <Hero></Hero>
