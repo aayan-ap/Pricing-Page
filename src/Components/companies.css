@@ -35,10 +35,10 @@
   align-items: center;
   gap: 1em;
   padding-right: 1em;
-  animation: spin 50s infinite linear;
+  animation: spin 10s infinite linear;
 }
 
-.group:hover {
+.crousel:hover .group {
   animation-play-state: paused;
 }
 
