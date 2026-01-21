@@ -19,7 +19,7 @@ const Pricing_card = () => {
         </div>
 
         <div className="price-btn">
-          <a href="#">
+          <a href="https://pages.razorpay.com/genai45">
             <button>Get Started</button>
           </a>
         </div>

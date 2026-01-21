@@ -1,0 +1,120 @@
+.companies_container {
+  font-family: "DM Sans", sans-serif;
+  margin-bottom: 100px;
+  margin-inline: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.companies_head {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 45px;
+}
+.companies_head h1 {
+  font-size: 47px;
+}
+
+.crousel {
+  /* border: 1px solid white; */
+  display: flex;
+  width: 100%;
+  overflow-x: auto;
+  /* gap: 1em; */
+}
+.crousel::-webkit-scrollbar {
+  display: none;
+}
+.group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  padding-right: 1em;
+  animation: spin 50s infinite linear;
+}
+
+.group:hover {
+  animation-play-state: paused;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 140px;
+  padding: 10px;
+}
+.card img {
+  width: 10em;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.card img:hover {
+  transform: scale(1.1);
+}
+
+@keyframes spin {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: -100%;
+  }
+}
+@media (max-width: 800px) {
+  .companies_container {
+    margin-bottom: 50px;
+    margin-inline: 1rem;
+  }
+  .companies_head {
+    margin-bottom: 35px;
+  }
+  .companies_head h1 {
+    font-size: 32px;
+  }
+  .group {
+
+    gap: 1em;
+    padding-right: 1em;
+    animation: spin 50s infinite linear;
+  }
+  /* .card {
+    border: 1px solid white;
+  } */
+  .card img {
+    width: 8em;
+  
+  }
+}
+@media (max-width:580px) {
+      .companies_container {
+    margin-bottom: 30px;
+   
+  }
+  .companies_head {
+    margin-bottom: 6vw;
+  }
+  .companies_head h1 {
+       font-size: clamp(18px, 4.5vw, 25px);
+  }
+  .group {
+
+    gap: 1em;
+    padding-right: 1em;
+    animation: spin 50s infinite linear;
+  }
+  .card {
+     height: 80px;
+   
+  }
+  .card img {
+    width: 5em;
+  
+  }
+}

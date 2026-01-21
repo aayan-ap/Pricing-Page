@@ -22,7 +22,7 @@ const Pricing_card_onsite = () => {
         </div>
 
         <div className="price-btn-onsite">
-          <a href="#">
+          <a href="https://pages.razorpay.com/Onsite45">
             <button>Get Started</button>
           </a>
         </div>

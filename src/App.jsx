@@ -13,7 +13,8 @@ import Prologue from "./Components/Prologue";
 import Why from "./Components/Why";
 import Faq from "./Components/Faq";
 import Footer from "./Components/Footer";
-import NavSample from "./Components/NavSample";
+import NavRes from "./Components/NavRes";
+import Companies from "./Components/Companies";
 
 // import Webinar_vid from "./Components/Webinar_vid";
 
@@ -22,7 +23,7 @@ function App() {
     <div>
       <header>
         {/* <Nav></Nav> */}
-        <NavSample></NavSample>
+        <NavRes></NavRes>
 
       </header>
 
@@ -58,6 +59,10 @@ function App() {
       <Prologue></Prologue>
       {/* Why Corporates Choose CloudAge ? */}
       <Why></Why>
+
+{/* Companies */}
+<Companies></Companies>
+
       {/* Faqs */}
       <Faq></Faq>
       {/* Footer */}

@@ -15,19 +15,19 @@ function Footer() {
         <div className="connect">
           <p>Connect with us :</p>
           <div className="social">
-            <a href="#">
+            <a target="_blank" href="https://www.facebook.com/people/Cloudage-Global-Services-Pvt-Ltd/61550914802449/">
               {" "}
               <img src="src/assets/social/fb.svg" alt="Facebook" />
             </a>
-            <a href="#">
+            <a target="_blank" href="https://www.instagram.com/cloudage.global/">
               {" "}
               <img src="src/assets/social/insta.svg" alt="Insta" />
             </a>
-            <a href="#">
+            <a target="_blank" href="https://www.linkedin.com/company/cloudage/">
               {" "}
               <img src="src/assets/social/linkedIn.svg" alt="LinkedIn" />
             </a>
-            <a href="#">
+            <a target="_blank" href="https://www.whatsapp.com/channel/0029Vau9b424SpkPGTM2ek0D">
               {" "}
               <img src="src/assets/social/wp.svg" alt="Whatsapp" />
             </a>
