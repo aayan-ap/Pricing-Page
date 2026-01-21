@@ -35,7 +35,7 @@
   align-items: center;
   gap: 1em;
   padding-right: 1em;
-  animation: spin 10s infinite linear;
+  animation: spin 50s infinite linear;
 }
 
 .crousel:hover .group {
