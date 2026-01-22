@@ -1,9 +1,5 @@
   const alumniLogos = [
     {
-      src: "src/assets/alumni_company_logos/Accenture.png",
-      title: "Accenture",
-    },
-    {
       src: "src/assets/alumni_company_logos/buisness.png",
       title: "Business",
     },

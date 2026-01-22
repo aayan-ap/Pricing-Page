@@ -15,6 +15,8 @@ import Faq from "./Components/Faq";
 import Footer from "./Components/Footer";
 import NavRes from "./Components/NavRes";
 import Companies from "./Components/Companies";
+import Webinar_vid from "./Components/Webinar_vid";
+
 
 // import Webinar_vid from "./Components/Webinar_vid";
 
@@ -48,6 +50,7 @@ function App() {
       {/* Webinar Videos */}
       <Webinar></Webinar>
       {/* <Webinar_vid /> */}
+      
 
       {/* Who Should Join? */}
       <WhoJoin></WhoJoin>
