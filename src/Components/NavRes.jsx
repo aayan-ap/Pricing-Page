@@ -39,7 +39,11 @@ function NavRes() {
       <div className={`menu-list ${menuOpen ? "active" : ""}`}>
         <div className="menu-list-head">
           <div className="menu-head-text">
-            <h2>Menu</h2>
+              <img
+            className="menu-img"
+            src="src/assets/logo.png"
+            alt="CloudAge Logo"
+          ></img>
           </div>
           <div className="cross">
             {" "}

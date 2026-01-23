@@ -118,10 +118,19 @@
 .steps_info p {
   font-size: 23px;
 }
+@media (max-width:1024px) {
+  .steps_card_container {
+  width: 100%;
+  gap: 20px;
+}
+  
+}
 @media (max-width: 800px) {
   .steps_container {
     margin-inline: 1rem;
+    
   }
+
   .steps_head {
     margin-bottom: 50px;
   }
@@ -141,10 +150,11 @@
   }
   .steps_card_container {
     width: 100%;
-
+flex-direction: column;
     gap: 30px;
   }
   .steps_card {
+    
     width: 240px;
     height: 290px;
     padding-top: 25px;

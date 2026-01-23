@@ -33,7 +33,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1em;
+  gap: 3em;
   padding-right: 1em;
   animation: spin 50s infinite linear;
 }
