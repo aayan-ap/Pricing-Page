@@ -3,7 +3,7 @@ import "./pricing_card.css";
 const Pricing_card_self = () => {
   return (
     <>
-      <div className="price-container">
+      <div className="price-container self">
         <div className="price-head">
           <p className="p1-head">
             Self <span className="price-bold">Placed</span>

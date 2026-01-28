@@ -252,19 +252,14 @@ flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .text_head h3 {
-    /* font-size: 20px; */
-  }
+ 
   .steps_info {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-  .steps_info p {
-    /* font-size: 17px; */
-  }
- 
+
 
   .text_head h3 {
      font-size: clamp(16px, 3vw, 20px);
