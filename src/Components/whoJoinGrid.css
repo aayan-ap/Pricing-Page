@@ -1,0 +1,206 @@
+.whojoin_container {
+  font-family: "DM Sans", sans-serif;
+
+  margin-inline: 2rem;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whojoin_head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 55px;
+}
+.whojoin_head h1 {
+  font-size: 47px;
+}
+
+.whojoin_head h3 {
+  font-size: 25px;
+  font-weight: normal;
+}
+.who_join {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.whojoin_card_container {
+  /* width: 90%; */
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  /* grid-template-columns:  repeat(auto-fit,minmax(200px,1fr)); */
+  gap: 22px;
+  place-content: center center;
+}
+
+.whojoin_card {
+  display: grid;
+  grid-template-rows: subgrid;
+
+  grid-row: span 3;
+  place-content: center center;
+  padding-top: 1em;
+
+  padding-bottom: 2em;
+  padding-inline: 1.5rem;
+
+  border-radius: 40px;
+
+  /* width: 416px; */
+  /* height: 520px; */
+  background-image: linear-gradient(
+    226deg,
+    rgba(255, 255, 255, 0.04),
+    rgba(252, 252, 255, 0.1)
+  );
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.whojoin_card:hover {
+  transform: scale(1.03);
+  outline: 1px solid #ffffff6e;
+  box-shadow: 0 8px 20px rgb(246 246 246 / 16%);
+}
+
+.whojoin_img {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* outline: 1px solid white; */
+}
+.whojoin_img img {
+  border-radius: 20px;
+  border: 1px solid #ffffff17;
+  /* height: auto; */
+  /* object-fit: contain; */
+  width: 100%;
+}
+
+.whojoin_card_content {
+  display: grid;
+  grid-template-rows: subgrid;
+
+  gap: 20px;
+  grid-row: span 2;
+}
+.whojoin_card_content .head {
+  font-size: 25px;
+  font-weight: bold;
+}
+.whojoin_card_content .text {
+  font-size: 23px;
+}
+@media (max-width: 800px) {
+  .whojoin_container {
+    margin-inline: 1rem;
+    margin-bottom: 30px;
+  }
+  .whojoin_head {
+    gap: 0.5rem;
+    margin-bottom: 30px;
+  }
+  .whojoin_head h1 {
+    font-size: 2rem;
+  }
+
+  .whojoin_head h3 {
+    font-size: 1.2rem;
+  }
+  .whojoin_card_container {
+    width: 90%;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .whojoin_card {
+    gap: 3vw;
+    padding-block: 4vw;
+
+    border-radius: 20px;
+
+    /* width: 416px; */
+    /* height: 520px; */
+  }
+  .whojoin_img {
+    width: 80%;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* outline: 1px solid white; */
+  }
+
+  .whojoin_card_content {
+    justify-self: center;
+    width: 60%;
+    text-align: center;
+    gap: 10px;
+  }
+  .whojoin_card_content .head {
+    font-size: 22px;
+  }
+  .whojoin_card_content .text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 580px) {
+  .whojoin_head {
+    margin-bottom: 8vw;
+  }
+  .whojoin_head h1 {
+    font-size: clamp(18px, 4.5vw, 25px);
+  }
+
+  .whojoin_head h3 {
+    font-size: clamp(12px, 3vw, 18px);
+  }
+  .whojoin_card_container {
+    width: 90%;
+   
+    gap: 40px;
+  }
+  .whojoin_card {
+    border: 1px solid #ffffff22;
+    gap: 3vw;
+    padding-top: 4vw;
+    padding-bottom: 7vw;
+    border-radius: 4vw;
+
+    /* width: 416px; */
+    /* height: 520px; */
+  }
+  .whojoin_img {
+    width: 90%;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* outline: 1px solid white; */
+  }
+  .whojoin_img img {
+    border-radius: 4vw;
+  }
+  .whojoin_card_content {
+    justify-self: center;
+    width: 70%;
+    text-align: center;
+    gap: 10px;
+  }
+  .whojoin_card_content .head {
+    font-size: clamp(16px, 3vw, 20px);
+  }
+  .whojoin_card_content .text {
+    font-size: clamp(14px, 2.2vw, 18px);
+  }
+}

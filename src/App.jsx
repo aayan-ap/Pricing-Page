@@ -7,7 +7,8 @@ import Pricing_card_once from "./Components/Pricing_card_once";
 import Pricing_card_self from "./Components/Pricing_card_self";
 import Pricing_card_onsite from "./Components/Pricing_card_onsite";
 import Webinar from "./Components/Webinar";
-import WhoJoin from "./Components/WhoJoin";
+// import WhoJoin from "./Components/WhoJoin";
+import WhoJoinGrid from "./Components/WhoJoinGrid";
 import Steps from "./Components/Steps";
 import Prologue from "./Components/Prologue";
 import Why from "./Components/Why";
@@ -53,8 +54,8 @@ function App() {
       
 
       {/* Who Should Join? */}
-      <WhoJoin></WhoJoin>
-
+      {/* <WhoJoin></WhoJoin> */}
+<WhoJoinGrid></WhoJoinGrid>
       {/* Steps to Success */}
       <Steps></Steps>
 

@@ -152,27 +152,38 @@
     width: 100%;
 flex-direction: column;
     gap: 30px;
+    
   }
   .steps_card {
-    
-    width: 240px;
-    height: 290px;
-    padding-top: 25px;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 400px;
+    padding-top: 0px;
     border-radius: 25px;
-    gap: 5px;
+    gap: 35px;
   }
 
+  .steps_img {
+
+  height: 100px;
+  width: 340px;
+  gap: 10px;
+ 
+  margin-bottom: 0px;
+ 
+}
+
+
   .steps_text {
-    margin-inline: 20px;
-    gap: 15px;
+    /* margin-inline: 20px; */
+    /* gap: 15px; */
+    width: 60%;
   }
   .text_head {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .text_head h3 {
-    font-size: 20px;
   }
   .steps_info {
     display: flex;
@@ -180,14 +191,12 @@ flex-direction: column;
     align-items: center;
     text-align: center;
   }
-  .steps_info p {
-    font-size: 17px;
-  }
+
 }
 
 @media (max-width: 580px) {
   .steps_container {
-    margin-block: 50px;
+    margin-block: 30px;
   }
   .steps_head {
     margin-bottom: 8vw;
@@ -207,35 +216,65 @@ flex-direction: column;
   }
 
   .steps_card_container {
+    width: 100%;
+flex-direction: column;
     gap: 30px;
+    
   }
   .steps_card {
-    width: 160px;
-    height: 215px;
-    padding-top: 0;
-    border-radius: 4vw;
-    gap: 0px;
-  }
-  .steps_img {
-    margin-bottom: 0px;
-  }
-  .steps_text {text-align: center;
-    margin-inline: 3px;
-    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 400px;
+    padding-top: 0px;
+    border-radius: 25px;
+    gap: 35px;
   }
 
+  .steps_img {
+
+  height: 100px;
+  width: 300px;
+  gap: 10px;
+ 
+  margin-bottom: 0px;
+ 
+}
+
+
+  .steps_text {
+    /* margin-inline: 20px; */
+    /* gap: 15px; */
+    width: 60%;
+  }
+  .text_head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text_head h3 {
+    /* font-size: 20px; */
+  }
+  .steps_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .steps_info p {
+    /* font-size: 17px; */
+  }
  
 
   .text_head h3 {
-    font-size: clamp(14px, 3vw, 18px);
+     font-size: clamp(16px, 3vw, 20px);
   }
 
   .steps_info p {
-    font-size: clamp(12px, 2.2vw, 16px);
-  }
+font-size: clamp(14px, 2.2vw, 18px);  }
 }
 
-@media (max-width: 417px) {
+/* @media (max-width: 417px) {
   .steps_card {
     width: 165px;
     height: 215px;
@@ -250,4 +289,4 @@ flex-direction: column;
     margin-inline: 12px;
     gap: 15px;
   }
-}
+} */
