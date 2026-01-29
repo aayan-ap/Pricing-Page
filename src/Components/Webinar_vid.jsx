@@ -5,15 +5,15 @@ function Webinar_vid() {
   // const data = [
   //   {
   //     head: "1st Webinar - 2026 Jan",
-  //     url: "src/assets/webinar_pic1.png",
+  //     url: "/assets/webinar_pic1.png",
   //   },
   //   {
   //     head: "2nd Webinar - 2026 Jan",
-  //     url: "src/assets/webinar_pic1.png",
+  //     url: "/assets/webinar_pic1.png",
   //   },
   //   {
   //     head: "Project Architecture",
-  //     url: "src/assets/webinar_pic2.png",
+  //     url: "/assets/webinar_pic2.png",
   //   },
   // ];
 
@@ -43,8 +43,8 @@ function Webinar_vid() {
             <p>1st Webinar - 2026 Jan</p>
           </div>
           <div className="webinar_sec">
-            <video className="webinar_vid" controls poster="src/assets/webinar_pic1.png">
-              <source src="src/assets/Sample_coding.mp4" type="video/mp4"></source>
+            <video className="webinar_vid" controls poster="/assets/webinar_pic1.png">
+              <source src="/assets/Sample_coding.mp4" type="video/mp4"></source>
               
             </video>
           </div>

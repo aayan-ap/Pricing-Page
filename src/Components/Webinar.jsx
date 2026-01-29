@@ -5,15 +5,15 @@ function Webinar() {
   const data = [
     {
       head: "1st Webinar - 2026 Jan",
-      url: "src/assets/webinar_pic1.png",
+      url: "/assets/webinar_pic1.png",
     },
     {
       head: "2nd Webinar - 2026 Jan",
-      url: "src/assets/webinar_pic1.png",
+      url: "/assets/webinar_pic1.png",
     },
     {
       head: "Project Architecture",
-      url: "src/assets/webinar_pic2.png",
+      url: "/assets/webinar_pic2.png",
     },
   ];
 

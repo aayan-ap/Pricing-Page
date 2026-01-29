@@ -7,7 +7,7 @@ function Footer() {
         <div className="footer_logo">
           <img
             className="footer_img"
-            src="src/assets/logo.png"
+            src="/assets/logo.png"
             alt="CloudAge Logo"
           ></img>
           <p>CloudAge Global Services Pvt Ltd</p>
@@ -17,19 +17,19 @@ function Footer() {
           <div className="social">
             <a target="_blank" href="https://www.facebook.com/people/Cloudage-Global-Services-Pvt-Ltd/61550914802449/">
               {" "}
-              <img src="src/assets/Social/fb.svg" alt="Facebook" />
+              <img src="/assets/Social/fb.svg" alt="Facebook" />
             </a>
             <a target="_blank" href="https://www.instagram.com/cloudage.global/">
               {" "}
-              <img src="src/assets/Social/Insta.svg" alt="Insta" />
+              <img src="/assets/Social/Insta.svg" alt="Insta" />
             </a>
             <a target="_blank" href="https://www.linkedin.com/company/cloudage/">
               {" "}
-              <img src="src/assets/Social/linkedIn.svg" alt="LinkedIn" />
+              <img src="/assets/Social/linkedIn.svg" alt="LinkedIn" />
             </a>
             <a target="_blank" href="https://www.whatsapp.com/channel/0029Vau9b424SpkPGTM2ek0D">
               {" "}
-              <img src="src/assets/Social/wp.svg" alt="Whatsapp" />
+              <img src="/assets/Social/wp.svg" alt="Whatsapp" />
             </a>
           </div>
         </div>

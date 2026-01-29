@@ -7,7 +7,7 @@ function Nav() {
     <>
       <nav className="nav">
         <div className="nav-left">
-          <img className="nav-img" src="src/assets/logo.png" alt="CloudAge Logo"></img>
+          <img className="nav-img" src="/assets/logo.png" alt="CloudAge Logo"></img>
         </div>
         <div className="nav-right">
           <div>
@@ -27,7 +27,7 @@ function Nav() {
         </div>
         <div className="menu">
           <button className="menu-btn ">
-               <img className="menu-icon" src="/src/assets/menu.png"></img>
+               <img className="menu-icon" src="//assets/menu.png"></img>
            </button>
             {/* <MenuIcon className="menu-icon"/> */}
          

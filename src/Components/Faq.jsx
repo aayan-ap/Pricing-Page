@@ -24,7 +24,7 @@ function Faq() {
               </p>
               <img
                 className={`arrow ${open === 0 ? "rotate" : ""}`}
-                src="src/assets/arrow.svg"
+                src="/assets/arrow.svg"
                 alt="arrow"
               />
             </div>
@@ -44,7 +44,7 @@ function Faq() {
               <p>How Long Does The Programme Take To Complete?</p>
               <img
                 className={`arrow ${open === 1 ? "rotate" : ""}`}
-                src="src/assets/arrow.svg"
+                src="/assets/arrow.svg"
                 alt="arrow"
               />
             </div>
@@ -64,7 +64,7 @@ function Faq() {
               <p>Does The Curriculum Include Cutting-Edge Technologies?</p>
               <img
                 className={`arrow ${open === 2 ? "rotate" : ""}`}
-                src="src/assets/arrow.svg"
+                src="/assets/arrow.svg"
                 alt="arrow"
               />
             </div>
@@ -83,7 +83,7 @@ function Faq() {
               <p>I'm From A Non-IT Field. Can I Really Do This Programme?</p>
               <img
                 className={`arrow ${open === 3 ? "rotate" : ""}`}
-                src="src/assets/arrow.svg"
+                src="/assets/arrow.svg"
                 alt="arrow"
               />
             </div>
@@ -102,7 +102,7 @@ function Faq() {
               <p>What Kind Of Support Can I Expect ?</p>
               <img
                 className={`arrow ${open === 4 ? "rotate" : ""}`}
-                src="src/assets/arrow.svg"
+                src="/assets/arrow.svg"
                 alt="arrow"
               />
             </div>

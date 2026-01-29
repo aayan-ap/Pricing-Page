@@ -15,7 +15,7 @@ function WhoJoin() {
           <div className="whojoin_card_container">
             <div className="whojoin_card">
               <div className="whojoin_img">
-                <img src="/src/assets/who_join/graduate.jpg"></img>
+                <img src="/assets/who_join/graduate.jpg"></img>
               </div>
               <div className="whojoin_card_content">
                 <p className="head">Fresh Graduates</p>
@@ -27,7 +27,7 @@ function WhoJoin() {
             </div>
             <div className="whojoin_card">
               <div className="whojoin_img">
-                <img src="/src/assets/who_join/proff.jpg"></img>
+                <img src="/assets/who_join/proff.jpg"></img>
               </div>
               <div className="whojoin_card_content">
                 <p className="head">Working Professionals</p>
@@ -39,7 +39,7 @@ function WhoJoin() {
             </div>
             <div className="whojoin_card">
               <div className="whojoin_img">
-                <img src="/src/assets/who_join/career.jpg"></img>
+                <img src="/assets/who_join/career.jpg"></img>
               </div>
               <div className="whojoin_card_content">
                 <p className="head">Change Your Career Path</p>
