@@ -31,7 +31,7 @@ function NavRes() {
         </div>
         <div className={`menu ${menuOpen ? "active" : ""}`}>
           <button className="menu-btn" onClick={() => setMenuOpen(!menuOpen)}>
-            <img className="menu-icon" src="//assets/menu.svg"></img>
+            <img className="menu-icon" src="/assets/menu.svg"></img>
           </button>
           {/* <MenuIcon className="menu-icon"/> */}
         </div>
@@ -48,7 +48,7 @@ function NavRes() {
           <div className="cross">
             {" "}
             <button className="menu-btn" onClick={() => setMenuOpen(!menuOpen)}>
-              <img className="menu-icon" src="//assets/cross.svg"></img>
+              <img className="menu-icon" src="/assets/cross.svg"></img>
             </button>
           </div>
         </div>
