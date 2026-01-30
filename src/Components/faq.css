@@ -151,9 +151,12 @@
 
     border-radius: 12px;
   }
-
+.question p,.answer p{
+  padding-right: 10px;
+}
   .question,
   .answer {
+  
     font-size: clamp(10px, 2.2vw, 16px);
   }
 
