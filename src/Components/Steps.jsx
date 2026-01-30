@@ -17,8 +17,8 @@ function Steps() {
         <div className="steps_card_container">
           <div className="steps_card">
             <div className="steps_img">
-              <img src="/assets/Ops_logo/ITOps.png"></img>
-              <img src="/assets/Ops_logo/DevOps.png"></img>
+              <img className="it_ops" src="/assets/Ops_logo/ITOps.png"></img>
+              <img className="dev_ops" src="/assets/Ops_logo/DevOps.png"></img>
             </div>
             <div className="steps_text">
               <div className="text_head">
@@ -34,10 +34,10 @@ function Steps() {
           </div>
           <div className="steps_card blu">
             <div className="steps_img">
-              <img src="/assets/Ops_logo/SysOps.png"></img>
+              <img className="sysops" src="/assets/Ops_logo/SysOps.png"></img>
               <img className="dataops" src="/assets/Ops_logo/DataOps.png"></img>
             </div>
-            <div className="steps_text">
+            <div className="steps_text sys_ops_text">
               <div className="text_head">
                 <h3>Sys Ops & DataOps</h3>
               </div>
