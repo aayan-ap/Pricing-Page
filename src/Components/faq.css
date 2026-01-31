@@ -127,6 +127,7 @@
   .faq_container {
     margin-inline: 1rem;
     margin-bottom: 30px;
+    /* padding-bottom:2px ; */
   }
   .faq_head {
     margin-bottom: 4vw;
@@ -157,10 +158,16 @@
   .question,
   .answer {
   
-    font-size: clamp(10px, 2.2vw, 16px);
+    font-size: clamp(12px, 2.2vw, 16px);
   }
 
   .answer {
     padding: 10px 0;
+  }
+}
+@media (max-width:320px) {
+    .faq_container {
+   
+    padding-bottom:60px ;
   }
 }

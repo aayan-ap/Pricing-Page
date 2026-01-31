@@ -139,7 +139,7 @@
     padding-inline: 10px;
     padding-top: 12px;
     padding-bottom: 25px;
-    font-size: clamp(10px, 2.2vw, 16px);
+    font-size: clamp(12px, 2.2vw, 16px);
   }
   .prlogue_para {
     line-height: normal;

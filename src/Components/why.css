@@ -107,14 +107,15 @@
     padding-inline: 10px;
     padding-block: 10px;
     width: 100%;
-    font-size: clamp(12px, 2.2vw, 18px);
+    font-size: clamp(14px, 2.2vw, 18px);
     border-radius: 15px;
   }
   .why_point h3 {
     font-size: 1em;
   }
   .why_point p {
+    text-align:justify;
     line-height: normal;
-    font-size: clamp(10px, 2.2vw, 16px);
+    font-size: clamp(12px, 2.2vw, 16px);
   }
 }

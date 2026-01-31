@@ -61,8 +61,13 @@
   filter: brightness(1) invert(1) sepia(1) saturate(500%) hue-rotate(330deg);
 }
 .it_ops {
-    filter: brightness(1) invert(1) sepia(1) saturate(485%) hue-rotate(158deg);
-  }
+  filter: brightness(1) invert(1) sepia(1) saturate(485%) hue-rotate(158deg);
+}
+
+.ai_ops {
+  filter: brightness(1) invert(1) sepia(1) saturate(485%) hue-rotate(105deg);
+}
+
 .steps_card:hover {
   box-shadow:
     inset 0 0 0 1px rgba(255, 255, 255, 0.5),
@@ -87,14 +92,20 @@
 .steps_img .dev_ops {
   width: 45%;
 }
+
+.steps_img .ai_ops,
+.steps_img .gen_ai {
+  width: 50%;
+}
+
 .ai_ops {
   position: absolute;
 
-  left: 16%;
+  left: 8%;
 }
 .gen_ai {
   position: absolute;
-  right: 10%;
+  right: 2%;
 }
 .steps_text {
   display: flex;
@@ -185,11 +196,9 @@
   }
   .dev_ops {
     position: absolute;
-    right: 3%;
+    right: 0%;
   }
-  .steps_img .ai_ops {
-    width: 50%;
-  }
+
   .steps_img .ai_ops,
   .steps_img .gen_ai {
     width: 50%;
@@ -251,6 +260,7 @@
   .steps_card {
     justify-content: center;
     align-items: center;
+    border: 1px solid #ffffff22;
     width: 90%;
     height: 370px;
     padding-top: 0px;
@@ -267,6 +277,13 @@
     gap: 10px;
 
     margin-bottom: 0px;
+  }
+
+  .ai_ops {
+    left: 9%;
+  }
+  .gen_ai {
+    right: 0%;
   }
 
   .steps_text {
@@ -297,18 +314,16 @@
     font-size: clamp(16px, 2.2vw, 18px);
   }
 }
-@media (max-width:380px) {
-    
+@media (max-width: 380px) {
   .steps_img .dev_ops {
-    width: 40%;
+    width: 45%;
   }
-   .it_ops {
-    left: 5%;
+  .it_ops {
+    left: 2%;
   }
   .dev_ops {
-    right: 8%;
+    right: 4%;
   }
-
 }
 @media (max-width: 345px) {
   .steps_img .it_ops,
@@ -316,7 +331,7 @@
     width: 40%;
   }
   .it_ops {
-    left: 13%;
+    left: 10%;
   }
   .dev_ops {
     right: 10%;

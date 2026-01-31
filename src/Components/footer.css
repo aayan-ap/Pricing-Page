@@ -2,7 +2,7 @@
   position: relative;
   font-family: "DM Sans", sans-serif;
   margin-inline: 2rem;
-  margin-top: 80px;
+  margin-top: 130px;
   margin-bottom: 70px;
   padding-top: 2rem;
   display: flex;
@@ -110,7 +110,7 @@
     align-items: center;
     gap: 25px;
     margin-inline: 1rem;
-    margin-top: 58px;
+    margin-top: 120px;
     margin-bottom: 30px;
   }
 
