@@ -1,5 +1,4 @@
 .steps_container {
-
   font-family: "DM Sans", sans-serif;
   margin-block: 100px;
   display: flex;
@@ -61,6 +60,9 @@
 .dataops {
   filter: brightness(1) invert(1) sepia(1) saturate(500%) hue-rotate(330deg);
 }
+.it_ops {
+    filter: brightness(1) invert(1) sepia(1) saturate(485%) hue-rotate(158deg);
+  }
 .steps_card:hover {
   box-shadow:
     inset 0 0 0 1px rgba(255, 255, 255, 0.5),
@@ -81,7 +83,8 @@
   height: auto;
   width: 40%;
 }
-.steps_img .it_ops, .steps_img .dev_ops{
+.steps_img .it_ops,
+.steps_img .dev_ops {
   width: 45%;
 }
 .ai_ops {
@@ -121,17 +124,15 @@
 .steps_info p {
   font-size: 23px;
 }
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
   .steps_card_container {
-  width: 100%;
-  gap: 20px;
-}
-  
+    width: 100%;
+    gap: 20px;
+  }
 }
 @media (max-width: 800px) {
   .steps_container {
     margin-inline: 1rem;
-    
   }
 
   .steps_head {
@@ -153,9 +154,8 @@
   }
   .steps_card_container {
     width: 100%;
-flex-direction: column;
+    flex-direction: column;
     gap: 30px;
-    
   }
   .steps_card {
     justify-content: center;
@@ -168,42 +168,41 @@ flex-direction: column;
   }
 
   .steps_img {
+    height: 100px;
+    width: 340px;
+    gap: 10px;
 
-  height: 100px;
-  width: 340px;
-  gap: 10px;
- 
-  margin-bottom: 0px;
- 
-}
-.steps_img .it_ops, .steps_img .dev_ops{
-  width: 50%;
-}
-.it_ops{
-  position: absolute;
-
-  left: 0%;
-
-}
-.dev_ops{
+    margin-bottom: 0px;
+  }
+  .steps_img .it_ops,
+  .steps_img .dev_ops {
+    width: 50%;
+  }
+  .it_ops {
     position: absolute;
-  right: 3%; 
-}
- .steps_img .ai_ops{
-  width: 50%;
-}
- .steps_img .ai_ops,.steps_img .gen_ai{
-  width: 50%;
-}
-.ai_ops {
-  position: absolute;
 
-  left: 5.5%;
-}
-.gen_ai {
-  position: absolute;
-  right: 2.7%;
-}
+    left: 0%;
+  }
+  .dev_ops {
+    position: absolute;
+    right: 3%;
+  }
+  .steps_img .ai_ops {
+    width: 50%;
+  }
+  .steps_img .ai_ops,
+  .steps_img .gen_ai {
+    width: 50%;
+  }
+  .ai_ops {
+    position: absolute;
+
+    left: 5.5%;
+  }
+  .gen_ai {
+    position: absolute;
+    right: 2.7%;
+  }
 
   .steps_text {
     /* margin-inline: 20px; */
@@ -221,7 +220,6 @@ flex-direction: column;
     align-items: center;
     text-align: center;
   }
-
 }
 
 @media (max-width: 580px) {
@@ -247,9 +245,8 @@ flex-direction: column;
 
   .steps_card_container {
     width: 100%;
-flex-direction: column;
+    flex-direction: column;
     gap: 30px;
-    
   }
   .steps_card {
     justify-content: center;
@@ -260,21 +257,17 @@ flex-direction: column;
     border-radius: 25px;
     gap: 0px;
   }
-  .sys_ops_text{
-
+  .sys_ops_text {
     margin-top: 20px;
   }
 
   .steps_img {
+    height: 100px;
+    width: 300px;
+    gap: 10px;
 
-  height: 100px;
-  width: 300px;
-  gap: 10px;
- 
-  margin-bottom: 0px;
- 
-}
-
+    margin-bottom: 0px;
+  }
 
   .steps_text {
     /* margin-inline: 20px; */
@@ -286,7 +279,7 @@ flex-direction: column;
     justify-content: center;
     align-items: center;
   }
- 
+
   .steps_info {
     display: flex;
     justify-content: center;
@@ -294,50 +287,56 @@ flex-direction: column;
     text-align: center;
   }
 
-
   .text_head h3 {
-     text-align: center;
-     /* font-size: clamp(16px, 3vw, 20px); */
-      font-size: clamp(18px, 3vw, 20px);
+    text-align: center;
+    /* font-size: clamp(16px, 3vw, 20px); */
+    font-size: clamp(18px, 3vw, 20px);
   }
 
   .steps_info p {
-font-size: clamp(16px, 2.2vw, 18px);  }
+    font-size: clamp(16px, 2.2vw, 18px);
+  }
 }
-@media (max-width:345px) {
-  
-  .steps_img .it_ops, .steps_img .dev_ops{
-  width: 40%;
-}
-.it_ops{
- 
+@media (max-width:380px) {
+    
+  .steps_img .dev_ops {
+    width: 40%;
+  }
+   .it_ops {
+    left: 5%;
+  }
+  .dev_ops {
+    right: 8%;
+  }
 
-  left: 13%;
-
 }
-.dev_ops{
-  
-  right: 10%; 
-}
- .steps_img .ai_ops{
-  width: 50%;
-}
- .steps_img .ai_ops,.steps_img .gen_ai{
-  width: 45%;
-}
-.ai_ops {
-
-
-  left: 12%;
-}
-.gen_ai {
-
-  right: 8%;
-}
- .steps_img .sysops{
-
-  width: 35%;
- }
+@media (max-width: 345px) {
+  .steps_img .it_ops,
+  .steps_img .dev_ops {
+    width: 40%;
+  }
+  .it_ops {
+    left: 13%;
+  }
+  .dev_ops {
+    right: 10%;
+  }
+  .steps_img .ai_ops {
+    width: 50%;
+  }
+  .steps_img .ai_ops,
+  .steps_img .gen_ai {
+    width: 45%;
+  }
+  .ai_ops {
+    left: 12%;
+  }
+  .gen_ai {
+    right: 8%;
+  }
+  .steps_img .sysops {
+    width: 35%;
+  }
 }
 
 /* @media (max-width: 417px) {

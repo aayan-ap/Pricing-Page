@@ -18,16 +18,12 @@ import NavRes from "./Components/NavRes";
 import Companies from "./Components/Companies";
 // import Webinar_vid from "./Components/Webinar_vid";
 
-
-// import Webinar_vid from "./Components/Webinar_vid";
-
 function App() {
   return (
     <div>
       <header>
         {/* <Nav></Nav> */}
         <NavRes></NavRes>
-
       </header>
 
       <Hero></Hero>
@@ -51,11 +47,10 @@ function App() {
       {/* Webinar Videos */}
       <Webinar></Webinar>
       {/* <Webinar_vid /> */}
-      
 
       {/* Who Should Join? */}
       {/* <WhoJoin></WhoJoin> */}
-<WhoJoinGrid></WhoJoinGrid>
+      <WhoJoinGrid></WhoJoinGrid>
       {/* Steps to Success */}
       <Steps></Steps>
 
@@ -64,8 +59,8 @@ function App() {
       {/* Why Corporates Choose CloudAge ? */}
       <Why></Why>
 
-{/* Companies */}
-<Companies></Companies>
+      {/* Companies */}
+      <Companies></Companies>
 
       {/* Faqs */}
       <Faq></Faq>
